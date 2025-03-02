@@ -21,5 +21,6 @@
 
 ***
 
-原网页制作者：[Yimeng-Zhang](https://github.com/Yimeng-Zhang/Machine-Learning-From-Scratch/blob/master/docs/index.rst)
-本人在他的开源项目上进行了一些修改删减，无商用目的，只为学习
+原网页制作者：[@Yimeng-Zhang](https://github.com/Yimeng-Zhang/Machine-Learning-From-Scratch/blob/master/docs/index.rst)
+
+本人在他的开源项目上进行了一些修改删减，无商用目的，只为学习！
