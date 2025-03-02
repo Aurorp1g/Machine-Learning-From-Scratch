@@ -1,0 +1,331 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-CN" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-CN" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Machine Learning From Scratch &mdash; Machine Learning From Scratch 0.1 文档</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="搜索" href="search.html" />
+    <link rel="next" title="数据探索" href="数据探索.html" /> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="#" class="icon icon-home"> Machine Learning From Scratch
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">数据处理 Data Processing（内容已迁移）</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="数据探索.html">数据探索</a></li>
+<li class="toctree-l1"><a class="reference internal" href="特征清洗.html">特征清洗</a></li>
+<li class="toctree-l1"><a class="reference internal" href="特征工程.html">特征工程</a></li>
+<li class="toctree-l1"><a class="reference internal" href="特征选择.html">特征选择</a></li>
+</ul>
+<p class="caption"><span class="caption-text">数学基础 Math</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="单变量微积分.html">单变量微积分 Calculus P1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="多变量微积分.html">多变量微积分 Calculus P2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="线性代数.html">线性代数 Linear Algebra (InProcess)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="概率论.html">概率论 Probability (InProcess)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="统计学.html">统计学 Stats (TODO)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="最优化算法.html">最优化算法 (TODO)</a></li>
+</ul>
+<p class="caption"><span class="caption-text">机器学习算法 Algorithm</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="模型评估与模型调优.html">模型评估与模型调优</a></li>
+<li class="toctree-l1"><a class="reference internal" href="正则化.html">正则化 (TODO)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="损失函数.html">损失函数 (TODO)</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">Machine Learning From Scratch</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="#">Docs</a> &raquo;</li>
+        
+      <li>Machine Learning From Scratch</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="machine-learning-from-scratch">
+<h1>Machine Learning From Scratch<a class="headerlink" href="#machine-learning-from-scratch" title="永久链接至标题">¶</a></h1>
+</div>
+<div class="section" id="eamon-s">
+<h1>Eamon&#8217;s 机器学习资料库<a class="headerlink" href="#eamon-s" title="永久链接至标题">¶</a></h1>
+<p>系统梳理机器学习的各个知识点，概念+原理+代码。</p>
+<div class="admonition warning">
+<p class="first admonition-title">警告</p>
+<p class="last">本项目仍在早期开发阶段，如果读者发现问题或疑惑或有其他精彩想法，欢迎提交 <a class="reference external" href="https://github.com/13918078239/Machine-Learning-From-Scratch/issues">issue</a></p>
+</div>
+<div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">数据处理 Data Processing（内容已迁移）</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="数据探索.html">数据探索</a></li>
+<li class="toctree-l1"><a class="reference internal" href="特征清洗.html">特征清洗</a></li>
+<li class="toctree-l1"><a class="reference internal" href="特征工程.html">特征工程</a></li>
+<li class="toctree-l1"><a class="reference internal" href="特征选择.html">特征选择</a></li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">数学基础 Math</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="单变量微积分.html">单变量微积分 Calculus P1</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="单变量微积分.html#id1">1. 微积分简介</a></li>
+<li class="toctree-l2"><a class="reference internal" href="单变量微积分.html#id2">2. 函数与极限</a></li>
+<li class="toctree-l2"><a class="reference internal" href="单变量微积分.html#id12">3. 导数</a></li>
+<li class="toctree-l2"><a class="reference internal" href="单变量微积分.html#id28">4. 导数的应用</a></li>
+<li class="toctree-l2"><a class="reference internal" href="单变量微积分.html#id37">5. 泰勒公式</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="多变量微积分.html">多变量微积分 Calculus P2</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="多变量微积分.html#id1">1. 偏导数</a></li>
+<li class="toctree-l2"><a class="reference internal" href="多变量微积分.html#id5">2. 方向导数</a></li>
+<li class="toctree-l2"><a class="reference internal" href="多变量微积分.html#id6">3. 梯度</a></li>
+<li class="toctree-l2"><a class="reference internal" href="多变量微积分.html#id7">4. 多元函数的极值</a></li>
+<li class="toctree-l2"><a class="reference internal" href="多变量微积分.html#id10">5. 多元函数求导</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="线性代数.html">线性代数 Linear Algebra (InProcess)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="线性代数.html#id2">0. 要点汇总</a></li>
+<li class="toctree-l2"><a class="reference internal" href="线性代数.html#vector">1. 向量 Vector</a></li>
+<li class="toctree-l2"><a class="reference internal" href="线性代数.html#linear-combination-span-and-basis">2. 线性组合、张成的空间与基 Linear Combination, Span and Basis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="线性代数.html#linear-transformation-mapping">3. 矩阵与线性变换 Linear Transformation/Mapping</a></li>
+<li class="toctree-l2"><a class="reference internal" href="线性代数.html#determinant">5. 行列式 Determinant</a></li>
+<li class="toctree-l2"><a class="reference internal" href="线性代数.html#id19">6. 逆矩阵、秩、列空间、与零空间</a></li>
+<li class="toctree-l2"><a class="reference internal" href="线性代数.html#id23">7. 非方阵</a></li>
+<li class="toctree-l2"><a class="reference internal" href="线性代数.html#id24">8. 模、点积与正交矩阵</a></li>
+<li class="toctree-l2"><a class="reference internal" href="线性代数.html#id30">9. 叉积</a></li>
+<li class="toctree-l2"><a class="reference internal" href="线性代数.html#basis-change">10. 基变换 Basis Change</a></li>
+<li class="toctree-l2"><a class="reference internal" href="线性代数.html#id31">11. 特征向量、特征值、特征分解与奇异值分解</a></li>
+<li class="toctree-l2"><a class="reference internal" href="线性代数.html#vector-space">12. 抽象的向量空间 Vector Space</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="概率论.html">概率论 Probability (InProcess)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="概率论.html#id2">1. 基本概念</a></li>
+<li class="toctree-l2"><a class="reference internal" href="概率论.html#id17">2. 定义概率分布</a></li>
+<li class="toctree-l2"><a class="reference internal" href="概率论.html#id21">3. 描述统计与独立性</a></li>
+<li class="toctree-l2"><a class="reference internal" href="概率论.html#id29">4. 大数定律</a></li>
+<li class="toctree-l2"><a class="reference internal" href="概率论.html#id30">5. 中心极限定理</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="统计学.html">统计学 Stats (TODO)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="最优化算法.html">最优化算法 (TODO)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="最优化算法.html#gradient-descent">1. 梯度下降法 Gradient Descent</a></li>
+<li class="toctree-l2"><a class="reference internal" href="最优化算法.html#id2">2. 牛顿法和拟牛顿法</a></li>
+<li class="toctree-l2"><a class="reference internal" href="最优化算法.html#conjugate-gradient">3. 共轭梯度法 Conjugate Gradient</a></li>
+<li class="toctree-l2"><a class="reference internal" href="最优化算法.html#id7">4. 启发式优化方法</a></li>
+<li class="toctree-l2"><a class="reference internal" href="最优化算法.html#id8">5. 拉格朗日乘数法</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">机器学习算法 Algorithm</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="模型评估与模型调优.html">模型评估与模型调优</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="模型评估与模型调优.html#header-n4">1. 泛化能力</a></li>
+<li class="toctree-l2"><a class="reference internal" href="模型评估与模型调优.html#header-n15">2. 过拟合与欠拟合</a></li>
+<li class="toctree-l2"><a class="reference internal" href="模型评估与模型调优.html#bias-variance">3. Bias-Variance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="模型评估与模型调优.html#header-n148">4. 模型评价指标</a></li>
+<li class="toctree-l2"><a class="reference internal" href="模型评估与模型调优.html#header-n325">5. 模型选择方法</a></li>
+<li class="toctree-l2"><a class="reference internal" href="模型评估与模型调优.html#header-n389">6. 模型与特征稳定性</a></li>
+<li class="toctree-l2"><a class="reference internal" href="模型评估与模型调优.html#header-n407">7. 训练集、验证集、测试集</a></li>
+<li class="toctree-l2"><a class="reference internal" href="模型评估与模型调优.html#header-n505">8. 超参数调节</a></li>
+<li class="toctree-l2"><a class="reference internal" href="模型评估与模型调优.html#header-n598">9. 利用学习曲线和验证曲线诊断算法</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="正则化.html">正则化 (TODO)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="损失函数.html">损失函数 (TODO)</a></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="数据探索.html" class="btn btn-neutral float-right" title="数据探索" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Eamon_Zhang.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'0.1',
+            LANGUAGE:'zh_CN',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="_static/translations.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
